@@ -23,7 +23,7 @@ class NoteItem extends StatelessWidget {
               style: TextStyle(color: Colors.black, fontSize: 26),
             ),
             subtitle: Padding(
-              padding: const EdgeInsets.only(top: 16, bottom: 16),
+              padding: EdgeInsets.only(top: 16, bottom: 16),
               child: Text(
                 'Build your Career with Tharwat Samy',
                 style:
