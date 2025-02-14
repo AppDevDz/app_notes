@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:notes_app/helper/get%20_color.dart';
 
 class NoteItem extends StatelessWidget {
   const NoteItem({super.key});
@@ -10,6 +11,7 @@ class NoteItem extends StatelessWidget {
       padding: EdgeInsets.only(left: 16, top: 24, bottom: 24),
       decoration: BoxDecoration(
         color: const Color(0xffFFCD79),
+        //color: GetColor().getColor(),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
